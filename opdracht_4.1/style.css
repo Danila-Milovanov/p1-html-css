@@ -1,14 +1,25 @@
         h1 {
+            width: 33%;
             font-size: 24px;
             color: blue;
             font-weight: bold;
             font-style: italic;
+            border-left: 10px solid black;
         }
-
+        header {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWxB8dRrPj-4-b4Aj-_RSD4JSZPJh8q-xeg&s);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            border: 5px solid black;
+            border-left: 10px solid black;
+        }
         h2 {
             font-size: 20px;
             color: #0000ff;
             font-weight: bold;
+            border: 5px solid black;
+            border-left: 10px solid black;
         }
 
         h3 {
@@ -16,14 +27,30 @@
             font-size: 16px;
             color:teal;
             font-weight: bold;
+            border: 5px solid black;
+            border-left: 10px solid black;
         }
 
         p {
-            color: #4D4D4D; 
+            color: #070101; 
             font-weight: bold;
+            border: 5px solid black;
+            border-left: 10px solid black;
         }
         
         a {
             color: #8A2BE2;  
-            text-decoration: none; 
+            text-decoration: none;
+            border: 5px solid black;
+            border-left: 10px solid black; 
         }
+
+        img {
+            width: 50%;
+            border: 5px solid black;
+            border-left: 10px solid black;
+        }
+        
+    
+        
+        
