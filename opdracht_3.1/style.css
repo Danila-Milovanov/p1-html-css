@@ -10,6 +10,9 @@
     font-family: "Goldman", cursive;
     background-image: url(..//opdracht_3.1/images/background.jpeg);
     background-size: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
   }
   
   nav {
