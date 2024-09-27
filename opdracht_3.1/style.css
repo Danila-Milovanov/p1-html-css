@@ -8,6 +8,8 @@
   }
   body {
     font-family: "Goldman", cursive;
+    background-image: url(..//opdracht_3.1/images/background.jpeg);
+    background-size: 100%;
   }
   
   nav {
@@ -18,7 +20,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    background: #465052;
+    background: #5abccf;
     justify-content: space-between;
   }
   nav ul {
@@ -31,7 +33,7 @@
     padding: 0 4rem 0 4rem;
   }
   nav a {
-    color: rgb(14, 2, 2);
+    color: rgb(246, 244, 244);
     text-decoration: none;
   }
   nav img {
