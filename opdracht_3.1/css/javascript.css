@@ -8,11 +8,12 @@
   }
   body {
     font-family: "Goldman", cursive;
-    background-image: url(..//images/background.jpeg);
+    background-color: azure;
     background-size: 100%;
     color: white;
     font-size: 35px;
     text-align: center;
+    border-image: url(../images/javascript.png);
   }
   
   nav {
@@ -41,10 +42,4 @@
   }
   nav img {
     width: 5vw;
-  }
-
-  #background {
-
-  width: 100%;
-  height: 1080px;
   }
