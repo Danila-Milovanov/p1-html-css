@@ -76,20 +76,29 @@
   z-index: 1000;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1em;
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
 }
 
 h2, p {
@@ -117,7 +126,13 @@ footer p {
    width: 300px;
    height: 300px;
 }
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-image {
+.image {
   margin-left: 100px;
+  width: 45%;
 }
