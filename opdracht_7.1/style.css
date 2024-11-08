@@ -1,0 +1,47 @@
+main{
+    height: 1080px;
+}
+header{
+    background: rgb(119, 0, 255);
+    padding: 20px;
+    text-align: left;
+    height: 10%;
+    text-wrap: wrap;
+}
+.block1{
+    background: rgb(0, 255, 128);
+    height: 30%;
+}
+.block2{
+    background: rgb(214, 87, 114);
+    height: 30%;
+}
+.block3{
+    background: green;
+    height: 30%;
+}
+@media only screen and (max-width:412px){
+    div>h2,p{
+        text-align: center;
+    }   
+    header{
+        background: rgb(93, 98, 102);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .block1{
+        background: rgb(0, 225, 255);
+    }
+    .block2{
+        background: rgb(207, 85, 255);
+    }
+    .block3{
+        background: rgb(0, 81, 173);
+    }
+    .Logo{
+        width: 30px;
+        height: 30px;
+        background: white;
+    }
+    }
