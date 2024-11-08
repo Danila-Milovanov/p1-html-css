@@ -1,0 +1,17 @@
+header {
+    width: 1920px;
+    height: 80px;
+    background: #926c6c2f;
+    display: flex;
+    flex-direction: row;
+}
+.Leftside, .Rightside {
+    text-align: center;
+    width: 20%;
+}
+.Middle {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
